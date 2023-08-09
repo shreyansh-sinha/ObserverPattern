@@ -2,6 +2,8 @@
 
 namespace ObserverPattern.Observable
 {
+// this is the observable class which is observering all the observers.
+// It implemented IObservable interface where we have defined all the methods we are defining for the class
     internal class Observable : IObservable
     {
         List<IObserver> observerList = new();
